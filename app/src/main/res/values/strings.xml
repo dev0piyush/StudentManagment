@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Student Managment</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="dob">Dob</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="signin">SignIn</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User? Click here</string>
 </resources>

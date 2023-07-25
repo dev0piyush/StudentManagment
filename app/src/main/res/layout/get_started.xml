@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".home.GetStarted">
 
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/GetStartedImage"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="@drawable/get_started_image"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ButtonGetStarted"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ButtonGetStarted"
+        android:layout_width="256dp"
+        android:layout_height="54dp"
+        android:text="@string/get_started"
+        android:translationZ="7dp"
+        android:stateListAnimator="@null"
+        android:textAlignment="center"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
